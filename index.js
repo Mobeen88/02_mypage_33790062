@@ -14,10 +14,11 @@ http.createServer(function (req, res) {
   </head>
   <body>
       <h1>Welcome to My Web Page</h1>
+      <p> Hello World! </p>
   </body>
   </html>
   `;
-  
+
   res.end(htmlContent);
 }).listen(port, function () {
   console.log(`✅ Node server is running at http://localhost:${port}`);
